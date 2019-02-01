@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+CHOICE=`echo -e "No\nYes" | dmenu -p "$1"`
+
+if [ $CHOICE = "Yes" ]; then
+	$2
+fi
+
