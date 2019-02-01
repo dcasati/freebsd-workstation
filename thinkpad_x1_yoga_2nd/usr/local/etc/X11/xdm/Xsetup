@@ -1,0 +1,2 @@
+xrandr --dpi 192 
+xrandr --output eDP-1 --brightness 0.4
